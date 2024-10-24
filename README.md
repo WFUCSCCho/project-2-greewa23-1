@@ -73,11 +73,11 @@ BST vs. AVL Tree running time (search):
 My BST with sorted data appears to have a O(N) running time. It has the largest time on the graph. My BST with unsorted data has the second largest time and a runtime of O(log(N)). My AVL with sorted data and unsorted data both have a O(log(N)) runtimes approximately. The time for my unsorted data is less than the sorted data with the AVL tree.
 
 BST vs. AVL Tree running rate (insertion):
-![image](https://github.com/user-attachments/assets/e4c4e67a-1a97-4fe8-9181-e36b6df4a1ca)
+![image](https://github.com/user-attachments/assets/be1eaef3-ff54-4d54-8e9b-e7eb55a6dcc3)
 For larger values of N, the running rate levels off for all of the four lines. There is more variation when N is smaller for each of the running rates. The running rate for insertion for each of the four lines are all O(log(N)). The sorted arraylist with BST and AVL performed with the first and second largest rates, respectively. My graph may not illustrate this perfectly and with more data, it would be more accurate. 
 
 BST vs. AVL Tree running rate (search):
-![image](https://github.com/user-attachments/assets/2d3f6828-239b-4753-8156-2935328a3f66)
+![image](https://github.com/user-attachments/assets/5b6047e9-c7d8-46ae-ad93-cc0d0760fab6)
 For larger values of N, the running rate levels off for all of the four lines. There is more variation when N is smaller for each of the running rates. The running rate for search for each of the four lines are all O(log(N)). The sorted arraylist for the BST had the largest running rate while the unsorted arraylist for the AVL had the smallest. My graph may not illustrate this perfectly, but it shows the leveling off for large N.
 
 
