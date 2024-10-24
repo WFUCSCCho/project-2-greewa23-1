@@ -74,7 +74,7 @@ My BST with sorted data appears to have a O(N) running time. It has the largest 
 
 BST vs. AVL Tree running rate (insertion):
 ![image](https://github.com/user-attachments/assets/e4c4e67a-1a97-4fe8-9181-e36b6df4a1ca)
-For larger values of N, the running rate levels off for all of the four lines. There is more variation when N is smaller for each of the running rates. The running rate for insertion for each of the four lines are all O(log(N)). The sorted arraylist with BST and AVL performed with the first and second largest times, respectively. My graph may not illustrate this perfectly and with more data, it would be more accurate. 
+For larger values of N, the running rate levels off for all of the four lines. There is more variation when N is smaller for each of the running rates. The running rate for insertion for each of the four lines are all O(log(N)). The sorted arraylist with BST and AVL performed with the first and second largest rates, respectively. My graph may not illustrate this perfectly and with more data, it would be more accurate. 
 
 BST vs. AVL Tree running rate (search):
 ![image](https://github.com/user-attachments/assets/2d3f6828-239b-4753-8156-2935328a3f66)
