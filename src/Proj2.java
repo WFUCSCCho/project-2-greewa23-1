@@ -188,6 +188,7 @@ public class Proj2 {
             //Write the number of lines and the time it takes to complete each operation for each tree.
             out.write(numLines + "," + end1 + "," + end2 + "," + end3 + "," + end4 + "," + endSearch + "," + endSearch2 + ","
                      + endSearch3 + "," + endSearch4 + "\n");
+	System.out.println(numLines + "," + end1 + "," + end2 + "," + end3 + "," + end4 + "," + endSearch + "," + endSearch2 + ","+ endSearch3 + "," + endSearch4);
 
         }
         catch(Exception e) {
