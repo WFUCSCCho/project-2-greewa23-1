@@ -65,16 +65,21 @@ Run your program several times for different number of lines of your dataset, N,
 Using your favorite graphing software (e.g., MS Excel or Google Sheets), plot the running time (in seconds) and rate (in seconds per node) vs. N for each case, comparing the BST and AVL Trees (i.e., two lines per graph). Take a screenshot of your graph and put them here by modifying this file, committing, and pushing it to this repository.
 
 BST vs. AVL Tree running time (insertion):
-(insert here)
+![image](https://github.com/user-attachments/assets/4f414091-66e7-47e8-a318-bbe014b119e3)
+My BST with sorted data appears to have a O(n) running time. It has the largest time on the graph. My BST with unsorted data has the second largest time and a runtime of O(log(n)). My AVL with sorted data and unsorted data has a O(log(n)) runtime approximately. The time for my unsorted data is less than the sorted data.
 
 BST vs. AVL Tree running time (search):
-(insert here)
+![image](https://github.com/user-attachments/assets/05ab3e56-63ff-4167-b257-43c37aaf7b1c)
+My BST with sorted data appears to have a O(n) running time. It has the largest time on the graph. My BST with unsorted data has the second largest time and a runtime of O(log(n)). My AVL with sorted data and unsorted data has a O(log(n)) runtime approximately. The time for my unsorted data is less than the sorted data. There may have been some error in my graphs based on how I ran my program.
 
 BST vs. AVL Tree running rate (insertion):
-(insert here)
+![image](https://github.com/user-attachments/assets/5b322b06-51bb-48af-9549-a86a3d571d1f)
+For larger values of n, the running rate levels off for all of the four lines. There is more variation when n is smaller for each of the running rates. The running rate for insertion for each of the four lines are all O(log(N)). The sorted arraylist with BST and AVL performed with the first and second largest times, respectively. My graph may not illustrate this perfectly and there is some error. 
 
 BST vs. AVL Tree running rate (search):
-(insert here)
+![image](https://github.com/user-attachments/assets/6931c8ed-3107-4805-98aa-37684f605317)
+For larger values of n, the running rate levels off or all of the four lines. There is more variation when n is smaller for each of the running rates. The running rate for insertion for each of the four lines are all O(log(N)). The sorted arraylist for the BST had the largest running rate while the unsorted arraylist for the AVL had the smallest. My graph may not illustrate this perfectly, but it shows the leveling off for large n.
+
 
 ## Submission:
 
